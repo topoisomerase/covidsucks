@@ -123,18 +123,25 @@ a:visited{
 
 #about{
   float: left;
-  width: 60%;
   font-size: 16pt;
 }
 
 #wwd{
-  padding-top: 30%;
+  padding-top: 10%;
   margin-bottom:30%;
 }
 
 #hiw{
-  padding-top:10%;
-  margin-bottom:20%;
+  padding-top:3%;
+}
+
+.paragraph{
+  width:50%;
+}
+
+.aboutpic{
+  width: 40%;
+  float: right;
 }
 
 #requestContent{
