@@ -144,6 +144,11 @@ a:visited{
   float: right;
 }
 
+#hiwpic{
+  width:40%;
+  float:left;
+}
+
 #requestContent{
   width:35%;
   margin-top:5%;
