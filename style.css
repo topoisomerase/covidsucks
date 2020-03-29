@@ -108,6 +108,15 @@ a:visited{
   margin-right:20px;
 }
 
+#linkOne a{
+  color: #FFF7F4;
+}
+
+#linkOne a:visited{
+  color: #FFF7F4;
+}
+
+
 #linkTwo a{
   color: #f3715f;
 }
