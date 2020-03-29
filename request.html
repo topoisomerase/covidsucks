@@ -1,0 +1,51 @@
+<html>
+<head>
+  <title>solidarity</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Arbutus+Slab|Sarabun&display=swap" rel="stylesheet">
+  <script src="http://iyawebdev.com/jqm.js"></script>
+</head>
+
+<body>
+  <img src="logo.png" alt="solidarity's logo" id="logo">
+  <br>
+  <div id="requestContent">
+    <h2>Request a solid</h2>
+
+    <div id="reqForm">
+      <div class="label">What items do you need? <br></div>
+        <input type="checkbox" value="food" class="item" id="food"> Food <br>
+        <input type="checkbox" value="water" class="item" id="water"> Water <br>
+        <input type="checkbox" value="first aid" class="item" id="firstAid"> First Aid <br>
+        <input type="checkbox" value="medicine" class="item" id="medicine"> Cold/Flu Medicine <br>
+        <input type="checkbox" value="toilet paper" class="item" id="tp"> Toilet Paper <br>
+        <input type="checkbox" value="toiletries" class="item" id="toiletries"> Toiletries <br><br>
+
+      <div class="label">How much do you need?<br></div>
+        <input type="number" max="10"><br><br>
+
+      <div class="label">How are you able to receive your item(s)? <br></div>
+        <input type="radio" name="receiveItems" value="pick" id="pickme"> I can pick them up myself <br>
+        <input type="radio" name="receiveItems" value="delivered" id="deliverme"> I prefer items delivered <br>
+        <input type="radio" name="receiveItems" value="eitheror" id="eitherme"> Either<br><br>
+
+      <div class="label">What's your address? (Don't worry, this information will only be sent to the donator if you select "deliver")</div>
+        <input type="text"><br><br>
+
+      <div id="submitForm">Submit</div>
+    </div>
+
+    <div id="availItems">
+      <br>
+      <div id="foodI" class="itemI pickup" value="pickup">here's food (for pickup)</div>
+      <div id="waterI" class="itemI delivery" value="delivery">here's water (for delivery)</div>
+      <div id="aidI" class="itemI either" value="either">here's first aid (for either)</div>
+      <div id="medI" class="itemI pickup" value="pickup">here's medicine (for pickup)</div>
+      <div id="tpI" class="itemI delivery" value="delivery">here's toilet paper (for delivery)</div>
+      <div id="toilI" class="itemI either" value="either">here's toiletries (for either)</div>
+    </div>
+  </div>
+
+  <script src="covidsucks.js"></script>
+</body>
+</html>

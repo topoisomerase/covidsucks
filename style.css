@@ -1,0 +1,138 @@
+body{
+  font-family: Circular Std, "Sarabun";
+  background-color: #FFF7F4;
+}
+
+h2{
+  font-family: Recoleta, "Arbutus Slab";
+  color:#f3715f;
+  font-size: 32pt;
+}
+
+#mainHeader{
+  width: 100%;
+  display: block;
+  position: fixed;
+}
+
+#mainHeader *{
+  padding: 0px;
+  margin: 0px;
+  float: right;
+}
+
+#logo{
+  float: left;
+}
+
+#mainHeader li{
+  position: relative;
+  float: left;
+  list-style: none;
+  color:#f3715f;
+  font-size:14pt;
+}
+
+#mainHeader li a{
+  width: 150px;
+  height: 30px;
+  text-decoration: none;
+  color:#f3715f;
+}
+
+#mainHeader li a:hover{
+  text-decoration: underline;
+}
+
+#mainHeader li a:visited{
+  color: inherit;
+}
+
+#home{
+  margin-right:-40px;
+}
+
+#mainContent{
+  width:90%;
+  margin: auto;
+}
+
+#copy{
+  font-family: Recoleta, "Arbutus Slab";
+  width: 50%;
+  font-size: 32pt;
+  float: left;
+  margin-top:10%;
+  color:#F3715F;
+}
+
+#subhead{
+  font-size: 16pt;
+  color:#59130A;
+  font-family: Circular Std, "Sarabun";
+}
+
+#homePic{
+  float: right;
+  margin-top:5%;
+  width:50%;
+}
+
+#mainLinks{
+  float: left;
+  margin-top:4%;
+}
+
+#mainLinks a{
+  text-decoration: none;
+}
+
+#mainLinks a:hover{
+  text-decoration: underline;
+}
+
+a:visited{
+  color:inherit;
+}
+
+.link{
+  border: 1px solid #f3715f;
+  border-radius: 20px;
+  padding:5px 22px;
+  font-size:16pt;
+}
+
+#linkOne{
+  color:#FFF7F4;
+  background-color: #f3715f;
+  margin-right:20px;
+}
+
+#linkTwo a{
+  color: #f3715f;
+}
+
+#about{
+  float: left;
+  width: 60%;
+  font-size: 16pt;
+}
+
+#wwd{
+  padding-top: 30%;
+  margin-bottom:30%;
+}
+
+#hiw{
+  padding-top:10%;
+  margin-bottom:20%;
+}
+
+#requestContent{
+  width:35%;
+  margin-top:5%;
+  margin-left:auto;
+  margin-right: auto;
+  font-family: Circular Std, "Sarabun";
+  font-size: 16pt;
+}
